@@ -17,7 +17,7 @@ Frontend of aplication To Do List for save task for later.
 
 ### Screenshot
 
-![Mobile view](./screenshot/Screenshot%20mobile%202022-10-17%20at%2001-43-36%20To%20Do%20List%20App.png)
+![Mobile view](./screenshot/Screenshot%20mobile%202022-10-17%20To%20Do%20List%20App.png)
 
 ## My process
 
