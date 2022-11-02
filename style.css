@@ -161,6 +161,19 @@ body {
     grid-template-rows: auto;
     align-self: center;
 }
+.taskList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.taskList::-webkit-scrollbar-track {
+    background-color: #9E0AF9;
+    border-radius: 5px;
+ }
+
+.taskList::-webkit-scrollbar-thumb {
+    background-color: #1BC4CF;
+    border-radius: 5px;
+ }
 
 .taskList li span {
     align-self: center;
