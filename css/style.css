@@ -1,0 +1,26 @@
+/* on iphone 13 mini 375x812px */
+body {
+    background-color: grey;
+    color: #9efef4;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: linear-gradient(180deg, #9E0AF9 0%, rgba(5, 202, 245, 0.77) 100%);
+    border: 1px solid #000000;
+    backdrop-filter: blur(2px);
+}
+
+/* .countTask {
+    position: absolute;
+    right: 1%;
+    bottom: 50%;
+    transform: translate(0,50%);
+    color: #3b5284;
+} */

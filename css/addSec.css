@@ -1,0 +1,57 @@
+/* add section */
+.add {
+    position: absolute;
+    top: 702px;
+    height: 110px;
+    width: 100%;
+}
+
+.inputDivAdd {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 62px;
+    bottom: 16px;
+    background: #9E0AF9;
+    border-radius: 8px;
+    border: none;
+}
+
+.addForm input {
+    width: 192px;
+    height: 60px;
+    margin-left: 10px;
+    background: #9E0AF9;
+    border-radius: 8px;
+    border: none;
+    padding: 0;
+}
+
+.addForm input:focus {
+    outline: none;
+}
+
+.addForm input, .addForm input::placeholder {
+    text-align: center;
+    font-size: 24px;
+    color: #1BC4CF;
+    opacity: 1;
+}
+
+.btnAddTask {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #9E0AF9;
+}
+
+.iconifyAdd {
+    color: #1BC4CF;
+    width: 30px;
+    height: 30px;
+}

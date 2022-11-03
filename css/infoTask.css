@@ -1,0 +1,55 @@
+/* information about task  */
+
+.info {
+    height: 50px;
+}
+
+.taskInfo {
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 24px;
+    top: 87px;
+    background: rgba(217, 217, 217, 0.02);
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+.taskInfo p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+.taskEnd {
+    left: 12px;
+}
+
+.taskIP {
+    right: 12px;
+}
+
+.taskInfo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    color: #FFFFFF;
+    top: 15px;
+}
+
+.taskEndSpan {
+    left: 32px;
+}
+
+.taskIPSpan {
+    right: 32px;
+}

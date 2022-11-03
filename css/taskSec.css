@@ -1,0 +1,67 @@
+/* sekcja tasków */
+
+.tasks {
+    position: absolute;
+    width: 375px;
+    height: 540px;
+    left: 0px;
+    top: 162px;
+}
+
+.taskList {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    /* scrollbar for firefox */
+    scrollbar-color: #1BC4CF #9E0AF9;
+    scrollbar-width: thin;
+}
+
+.taskList li {
+    list-style-type: none;
+
+    margin-left: 41px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px 16px 5px 16px;
+
+    min-height: 35px;
+    width: 260.5px;
+
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(217, 217, 217, 0.02), rgba(217, 217, 217, 0.02)), #1BC4CF;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    font-size: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 32px;
+    grid-template-rows: auto;
+    align-self: center;
+}
+
+/* scrollbar for other browser */
+.taskList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.taskList::-webkit-scrollbar-track {
+    background-color: #9E0AF9;
+    border-radius: 5px;
+ }
+
+.taskList::-webkit-scrollbar-thumb {
+    background-color: #1BC4CF;
+    border-radius: 5px;
+ }
+
+.taskList li span {
+    align-self: center;
+}
+
+.iconifyBin {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
