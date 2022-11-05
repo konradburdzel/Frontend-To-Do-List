@@ -2,8 +2,6 @@
 
 .tasks {
     position: absolute;
-    width: 375px;
-    height: 540px;
     left: 0px;
     top: 162px;
 }
@@ -11,6 +9,8 @@
 .taskList {
     padding: 0;
     margin: 0;
+    width: 375px;
+    height: 540px;
     overflow: auto;
     /* scrollbar for firefox */
     scrollbar-color: #1BC4CF #9E0AF9;
