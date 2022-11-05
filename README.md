@@ -1,6 +1,7 @@
 # To Do List app
 
-Frontend of aplication To Do List for save task for later.
+Basic Frontend of aplication To Do List for save task for later.
+With To Do List app you can add new task and search task in progress.
 
 ## Table of contents
 
@@ -17,7 +18,7 @@ Frontend of aplication To Do List for save task for later.
 
 ### Screenshot
 
-![Mobile view](./screenshot/Screenshot%20mobile%202022-10-17%20To%20Do%20List%20App.png)
+![Mobile view](./screenshot/Screenshot%202022-11-05%20at%2023-18-03%20To%20Do%20List%20App.png)
 
 ## My process
 
@@ -31,12 +32,13 @@ Frontend of aplication To Do List for save task for later.
 
 ### What I learned
 
-Use JavaScript for dynamic add elements on website. Coworking with design by Figma.
+Use JavaScript for dynamic add elements on website. Coworking with design by Figma. Use JavaScript for part of frontend dev app and use DOM.
 
 ### Continued development
 
 Add desktop view.
 Add backend.
+Write app in OOP.
 
 ## Author
 
